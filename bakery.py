@@ -11,4 +11,4 @@ class Bakery:
         cookie.size = 6
         cookie.hasChocolateChips = True
         if self.delegate:
-            self.delegate.on_cook
+            self.delegate.on_cookie_baked(cookie)
